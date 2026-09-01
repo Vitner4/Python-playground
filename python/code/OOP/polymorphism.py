@@ -23,4 +23,10 @@ objects = [
 
 # Демонстрация полиморфизма
 for obj in objects:
-    obj.move()
+    obj.move()  
+
+
+car1 = Car()
+
+# Проверка типа
+print(isinstance(car1, Car))
