@@ -21,6 +21,7 @@ class Bank:
 
 # user1 = Bank("Nik", 44567, 1500)
 # print(user1.balance) # getter
+
 # user1.balance = 1000 # setter
 # print(user1.balance)
 
@@ -43,5 +44,6 @@ class User:
 
 user = User("12345678")
 print(user.password)
+
 user.password = "4fg46hd86"
 print(user.password)
